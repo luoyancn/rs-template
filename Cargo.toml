@@ -1,7 +1,7 @@
 [package]
-name = "rs-template"
+name = "{{project-name}}"
 version = "0.1.0"
-authors = ["luciferchn@gmail.com"]
+authors = ["{{authors}}"]
 edition = "2018"
 
 [dependencies]
