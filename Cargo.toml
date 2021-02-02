@@ -1,0 +1,12 @@
+[package]
+name = "rs-template"
+version = "0.1.0"
+authors = ["luciferchn@gmail.com"]
+edition = "2018"
+
+[dependencies]
+log = "0.4.13"
+slog-scope = "4.4.0"
+slog-stdlog = "4.1.0"
+slog-logger = {git = "https://github.com/luoyancn/slog-logger", tag = "v0.1.0"}
+slog-filerotate = {git = "https://github.com/luoyancn/slog-filerotate", tag= "v0.1.0"}
