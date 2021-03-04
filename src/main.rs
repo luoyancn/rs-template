@@ -5,7 +5,7 @@ extern crate log;
 
 extern crate slog_logger;
 
-use slog_stdlog::crit;
+use slog_scope::crit;
 
 fn main() {
     let logger = slog_logger::initlogger(false, "", 0, false, false);
