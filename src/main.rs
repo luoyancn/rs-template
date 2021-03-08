@@ -1,11 +1,7 @@
-extern crate slog_scope;
-extern crate slog_stdlog;
 #[macro_use]
-extern crate log;
-
+extern crate slog_scope;
 extern crate slog_logger;
-
-use slog_scope::crit;
+extern crate slog_stdlog;
 
 fn main() {
     let logger = slog_logger::initlogger(false, "", 0, false, false);

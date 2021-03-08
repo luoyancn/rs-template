@@ -5,7 +5,6 @@ authors = ["{{authors}}"]
 edition = "2018"
 
 [dependencies]
-log = "0.4.13"
 slog-scope = "4.4.0"
 slog-stdlog = "4.1.0"
 slog-logger = {git = "https://github.com/luoyancn/slog-logger", tag = "v0.3.0"}
