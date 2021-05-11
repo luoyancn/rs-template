@@ -1,6 +1,6 @@
 #[macro_use]
-extern crate slog_scope;
 extern crate slog_logger;
+extern crate slog_scope;
 extern crate slog_stdlog;
 
 fn main() {
