@@ -5,4 +5,4 @@ authors = ["{{authors}}"]
 edition = "2018"
 
 [dependencies]
-slog-logger = {git = "https://github.com/luoyancn/slog-logger", tag = "v0.6.0"}
+slog-logger = {git = "https://github.com/luoyancn/slog-logger", tag = "v0.7.0"}
